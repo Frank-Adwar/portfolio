@@ -13,6 +13,11 @@ export const skillGroups = [
     ],
   },
   {
+    id: 'mobile',
+    label: 'Mobile development',
+    items: ['Android', 'iOS', 'React Native', 'Kotlin', 'Swift'],
+  },
+  {
     id: 'backend',
     label: 'Backend development',
     items: [

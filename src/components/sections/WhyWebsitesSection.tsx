@@ -6,11 +6,12 @@ import {
 import type { RefObject } from 'react'
 import { easeOutQuint } from '../../hooks/useSectionScrollProgress'
 
-/** Rows top → bottom: 1 · 2 · 3 · 2 (pyramid silhouette, widest near the base). */
+/** Rows top → bottom: 1 · 2 · 3 · 2 · 2 (pyramid silhouette, widest near the base). */
 const SKILLS_PYRAMID: string[][] = [
   ['Graphic design & branding'],
   ['UI / UX & visual design', 'Figma → production layouts'],
   ['React · TypeScript', 'Next.js · Vite', 'CSS systems & responsive'],
+  ['Android & iOS apps', 'Native & cross-platform mobile'],
   ['Performance & accessibility', 'SEO foundations'],
 ]
 
@@ -115,7 +116,7 @@ export const WhyWebsitesSection = forwardRef<HTMLElement, Props>(
                     ))}
                   </div>
                   <p className="why-web__aside-foot">
-                    Frank Adwar — web design &amp; development
+                    Frank Adwar — web &amp; mobile design &amp; development
                   </p>
                 </div>
               </div>

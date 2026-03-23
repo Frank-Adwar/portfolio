@@ -40,6 +40,7 @@ export function HeroSection({ ruleRef }: Props) {
             <ul className="hero-studio__creative-services" aria-label="Services">
               <li>Custom design</li>
               <li>Tailored builds</li>
+              <li>Mobile apps (iOS &amp; Android)</li>
               <li>Maintenance</li>
             </ul>
             <div className="hero-studio__creative-status">
@@ -67,15 +68,16 @@ export function HeroSection({ ruleRef }: Props) {
           <p className="hero-studio__kicker">Portfolio</p>
           <h1 className="hero-studio__name">Frank Adwar</h1>
           <p className="hero-studio__tagline">
-            I help businesses and individuals launch clean, effective brands and
-            websites — custom work tailored to your goals, with maintenance and
-            upgrades when you need them.
+            I help businesses and individuals launch clean, effective brands,
+            websites, and mobile apps — custom work tailored to your goals, with
+            maintenance and upgrades when you need them.
           </p>
           <p className="hero-studio__role">
-            Graphic designer · web design &amp; development
+            Graphic designer · web &amp; mobile design &amp; development
           </p>
           <p className="hero-studio__lede">
-            I design and build websites that turn visitors into clients.
+            I design and build websites and mobile apps that turn visitors into
+            clients.
           </p>
           <p className="hero-studio__lede">
             From idea to launch — clear process, fast delivery.
