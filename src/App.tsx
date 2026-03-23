@@ -5,7 +5,6 @@ import { SideNav } from './components/SideNav'
 import { LegacyWorkRedirect } from './components/LegacyWorkRedirect'
 import { ScrollToHash } from './components/ScrollToHash'
 import { ThemeToggle } from './components/ThemeToggle'
-import { PortfolioHomeFab } from './components/PortfolioHomeFab'
 import HomePage from './pages/HomePage'
 
 const WorksIndexPage = lazy(() => import('./pages/WorksIndexPage'))
@@ -44,7 +43,6 @@ function AppShell() {
         </Routes>
       </Suspense>
       <BottomNav active={primaryNav} />
-      <PortfolioHomeFab />
     </>
   )
 }
