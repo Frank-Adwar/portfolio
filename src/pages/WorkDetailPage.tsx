@@ -36,15 +36,6 @@ export default function WorkDetailPage() {
           <ArrowLeft size={16} strokeWidth={2} aria-hidden />
           Selected work
         </Link>
-        <a
-          className="work-detail__check-out work-detail__check-out--secondary work-detail__check-out--top"
-          href={liveWithReturn}
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Check it out
-          <ExternalLink size={16} strokeWidth={2} aria-hidden />
-        </a>
       </nav>
 
       <header className="work-detail__header">
@@ -78,6 +69,15 @@ export default function WorkDetailPage() {
       </div>
 
       <div className="work-detail__cta-stack">
+        <a
+          className="work-detail__check-out work-detail__check-out--secondary"
+          href={liveWithReturn}
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Check it out
+          <ExternalLink size={16} strokeWidth={2} aria-hidden />
+        </a>
         <Link
           className="work-detail__back-portfolio"
           to="/"
