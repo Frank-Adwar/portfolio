@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import { BottomNav } from './components/BottomNav'
 import { SideNav } from './components/SideNav'
 import { LegacyWorkRedirect } from './components/LegacyWorkRedirect'
@@ -51,6 +52,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <AppShell />
+      <Analytics />
     </BrowserRouter>
   )
 }
